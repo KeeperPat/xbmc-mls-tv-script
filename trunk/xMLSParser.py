@@ -134,7 +134,7 @@ def gamesFromStream(theStream, progress):
         
         highlightsMatch = re.search(r"w:'(mms://.+\.wmv)", cells[3].a['href'])
         if highlightsMatch is not None and len(highlightsMatch.groups()) == 1:
-          links.append(mediaLink("Highlights", highlightsMatch.group(1)))
+          links.append(mediaLink("Highlights", str(highlightsMatch.group(1))))
         
         if len(links) == 1:
            highlightsURL = highlightsMatch.group(1)
