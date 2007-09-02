@@ -6,11 +6,9 @@
 #              (http://www.crummy.com/software/BeautifulSoup/)
 #
 #          This file can be used/run indenpendently of the xMLS xbmc extension.
-#          In fact it's useful to do so to sanity test the parser.  I have a
-#          rudimentary unit test in there but it should really be more tho-
-#          rough.
+#          In fact it's useful to do so to sanity test the parser.  
 #
-# Author : episcopus (episcopus@comcast.net)
+# Author : Patrick Joyce (http://pragmati.st)
 #############################################################################
 
 import re, os, sys
