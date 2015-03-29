@@ -1,0 +1,1 @@
+XBox Media Center Script to watch Major League Soccer highlights (and eventually live games) from [MLSnet.com](http://mlsnet.com)
